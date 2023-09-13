@@ -10,7 +10,7 @@ module.exports = {
         'mine' : 'Montserrat Alternates'
       },
       screens: {
-        'xs': '430px',    // Custom extra small screen size
+        'xs': '380px',    // Custom extra small screen size
         'xsm': '600px',
         'sm': '640px',    // Custom small screen size
         'md': '830px',    // Custom medium screen size
