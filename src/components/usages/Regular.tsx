@@ -56,7 +56,7 @@ const Regular = () => {
                     <CustomInput name='regular2' label='Name' required />
                 </div>
                 <div>
-                    <p className='mb-4 text-[0.73rem] font-medium  text-gray-500'>Initial value should be passed with "Form" tag:</p>
+                    <p className='mb-4 text-[0.73rem] font-medium  text-gray-500'>Initial value should be passed with Form tag:</p>
                     <CustomInput name='regular3' label='Name' required />
                 </div>
                 <div>
