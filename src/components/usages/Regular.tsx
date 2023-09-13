@@ -6,7 +6,7 @@ import CodeDisplay from './CodeDisplay';
 
 const codeString = `
 import { Form } from 'antd'
-import React, { useState } from 'react'
+import React from 'react'
 import CustomInput from '../CustomInput'
 
 const Regular = () => {
