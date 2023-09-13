@@ -25,10 +25,10 @@ const Documentation = ({myRef}: Props) => {
             <div className='w-full   max-w-[38rem]'>
                 <Selector/>
             </div>
-            <div className='w-full md:mt-[-15rem]   max-w-[38rem]'>
+            <div className='w-full    max-w-[38rem]'>
                 <Datepicker/>
             </div>
-            <div className='w-full md:mt-[-7rem]   max-w-[38rem]'>
+            <div className='w-full    max-w-[38rem]'>
                 <Spacecompact/>
             </div>
             <div className='w-full   max-w-[38rem]'>
