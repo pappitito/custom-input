@@ -202,13 +202,11 @@ body {
   }
   .codeParent{
 	font-family: 'Fira Code', monospace !important;
+	max-width: 100%;
+	overflow-x: auto;
   }
 
-  .grid-container {
-	column-count: 2; /* Number of columns */
-  	column-gap: 3rem; 
-	
-  }
+  
 
 
 
