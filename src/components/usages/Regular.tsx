@@ -68,7 +68,7 @@ const Regular = () => {
             </Form>
         </div>
         <div className='border-t-[1.2px] p-[1rem] border-gray-300'>
-            <h1 className='font-semibold mb-3'>Basic</h1>
+            <h1 className='font-semibold mb-3'>Basic input</h1>
             <p>Basic usage of custom input</p>
         </div>
         <div onClick={()=> setShowCode((prev)=> !prev)} className='text-blue-500 w-full text-center cursor-pointer'>{showCode? 'Hide code': `Show code`}</div>
