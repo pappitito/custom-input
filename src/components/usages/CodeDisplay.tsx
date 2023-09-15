@@ -8,7 +8,7 @@ const CodeDisplay: React.FC<{ code: string }> = ({ code }) => {
     }, []);
   
     return (
-      <pre className='codeParent'>
+      <pre>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
         <code className="language-tsx">{code}</code>

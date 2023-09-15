@@ -205,7 +205,6 @@ body {
   }
   .codeParent{
 	font-family: 'Fira Code', monospace !important;
-	max-width: 90%;
 	display: flex;
 	margin: auto;
 	overflow-x: auto;
