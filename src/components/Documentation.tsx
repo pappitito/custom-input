@@ -16,7 +16,7 @@ const Documentation = ({myRef}: Props) => {
   return (
     <div ref={myRef} className='p-[1rem] flex justify-center items-center flex-col md:p-[4rem]'>
         <h1 className='text-[1.5rem] w-full text-left font-semibold mb-[2rem]'>Usage</h1>
-        <div className='gap-[2rem] columns-1 md:columns-2 '>
+        <div className='gap-[2rem] grid grid-cols-1 md:grid-cols-2 '>
             <div className='w-full h-auto break-inside-avoid mb-[2rem]  max-w-[38rem]'>
                 <Regular/>
             </div>
