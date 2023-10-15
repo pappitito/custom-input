@@ -16,6 +16,7 @@
     "antd": "^4.22.3",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
+    "flag-icons": "^6.11.1",
     "framer-motion": "^9.0.2",
     "highlight.js": "^11.8.0",
     "moment": "^2.29.4",

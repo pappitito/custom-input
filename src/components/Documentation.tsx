@@ -7,6 +7,7 @@ import Spacecompact from './usages/Spacecompact'
 import PhoneNumber from './usages/PhoneNumber'
 import RadioCheck from './usages/RadioCheck'
 import Subtitled from './usages/Subtitled'
+import Flagged from './usages/Flagged'
 
 interface Props{
     myRef: React.RefObject<HTMLDivElement>
@@ -26,6 +27,9 @@ const Documentation = ({myRef}: Props) => {
             <div className='w-full h-auto break-inside-avoid mb-[2rem] max-w-[38rem]'>
                 <Selector/>
             </div>
+            <div className='w-full  mb-[2rem] break-inside-avoid  max-w-[38rem]'>
+                <Flagged/>
+            </div>
             <div className='w-full  h-auto mb-[2rem] break-inside-avoid max-w-[38rem]'>
                 <Datepicker/>
             </div>
@@ -41,6 +45,7 @@ const Documentation = ({myRef}: Props) => {
             <div className='w-full  mb-[2rem] break-inside-avoid  max-w-[38rem]'>
                 <Subtitled/>
             </div>
+
         </div>
     </div>
   )

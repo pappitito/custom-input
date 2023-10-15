@@ -44,7 +44,7 @@ const PhoneNumber = () => {
                     <CustomInput name='mobileNumber' phoneCodeName='phoneCode' label='Mobile number' isPhoneNumber  />
                 </div>
                 <div>
-                    <p className='mb-4 text-[0.73rem] font-medium text-gray-500'>Regular</p>
+                    <p className='mb-4 text-[0.73rem] font-medium text-gray-500'>with initial value</p>
                     <CustomInput name='mobileNumber' label='Mobile number' isPhoneNumber  />
                 </div>
                 
@@ -52,8 +52,8 @@ const PhoneNumber = () => {
             </Form>
         </div>
         <div className='border-t-[1.2px] p-[1rem] border-gray-300'>
-            <h1 className='font-semibold mb-3'>Basic</h1>
-            <p>Basic usage of custom input</p>
+            <h1 className='font-semibold mb-3'>Phone Number</h1>
+            <p> usage of custom input for phone numbers</p>
         </div>
         <div onClick={()=> setShowCode((prev)=> !prev)} className='text-blue-500 w-full text-center cursor-pointer'>{showCode? 'Hide code': 'Show code'}</div>
         {showCode &&
